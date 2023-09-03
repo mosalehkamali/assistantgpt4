@@ -1,0 +1,96 @@
+.home{
+  background-color: #2728225b;
+}
+
+.mainStarter{
+    padding-top: 12vh;
+    background-color: #75a99c79;
+    background: linear-gradient(to bottom,  rgba(164, 105, 241, 0.384) 50%, rgba(117, 169, 156,1) 100%);
+}
+
+.background-video-container {
+    position: relative;
+    width: 100%;
+    height: 88vh; /* or whatever height you desire */
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.mainStartrerTitle{
+    direction: rtl;
+    margin-top: 35vh;
+    padding: 2rem;
+    color: #fff;
+    font-family: 'kalamehRegular';
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.accountBtn{
+    display: flex !important ;
+    justify-content: center! important;
+    align-items:center; 
+    margin-top: 2rem;
+    height:auto;
+    width: 100%;
+    
+}
+
+.accountLink{
+    direction: rtl;
+    text-decoration: none;
+    display: flex !important ;
+    justify-content: center! important;
+    align-items:center;
+    font-family: 'kalamehRegular';
+    font-size: 2rem;
+    width: 60%;
+    height: 4rem;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.37);
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px #fff solid;
+    outline: 2px #fff solid;
+    outline-offset: 3px;
+    transition: all ease 0.3s;
+}
+
+.accountLink:hover{
+    outline-offset: 10px;
+    transform: scale(1.05);
+    outline-color: rgba(255, 255, 255, 0);
+
+}
+
+.accountLink> svg{
+    height: 3rem;
+}
+
+.mainProducts{
+    /* margin-top: 15vh; */
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1;
+}
+
+.mainProducts>p{
+    margin: 2rem !important;
+    margin-bottom: 5rem !important;
+    width: 80%;
+    text-align: center;
+    border-bottom:2px #fff solid ;
+
+}

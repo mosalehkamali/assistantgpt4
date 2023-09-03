@@ -1,0 +1,51 @@
+.Login{
+    width: 60%;
+    padding:0 3rem 1.5rem 3rem ;
+    
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 10px;
+}
+
+.Login>h2{
+    margin: 0% !important;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    border-bottom:2px #fff solid ;
+}
+
+.loginCntaner {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'kalamehRegular';
+    padding:0 3rem 0 3rem ;
+}
+
+.InputContaner{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.loginInput{
+    outline: 2px solid  #75A99C;
+    direction: ltr;
+    color: #272822;
+    font-family: 'myFirstFont';
+    font-weight:500;
+    font-size: 1rem;
+    width: 60%!important ;
+    padding:10px 1.5rem 10px 1.5rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 1rem;
+}
+

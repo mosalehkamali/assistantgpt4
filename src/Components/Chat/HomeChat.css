@@ -1,0 +1,81 @@
+.top-part {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#A469F1 1%, #75A99C 87%, #fff);
+}
+
+.top-part>.title {
+    margin-top: 3rem;
+    font-family: 'myFirstFont';
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.logo {
+    display: flex;
+}
+
+@keyframes moveLogo {
+    0% {
+        transform: translateX(0) rotate(0deg);
+        filter: invert(100%) sepia(16%) saturate(7463%) hue-rotate(222deg) brightness(119%) contrast(115%);   
+    }
+    50% {
+        transform: translateX(300%)  rotate(360deg);
+        filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    }
+    100%{
+        transform: translateX()  rotate(0deg);
+        filter: invert(100%) sepia(16%) saturate(7463%) hue-rotate(222deg) brightness(119%) contrast(115%);
+    }
+}
+
+  
+
+.logo img {
+    filter: invert(100%) sepia(16%) saturate(7463%) hue-rotate(222deg) brightness(119%) contrast(115%);
+    height: 6rem;
+    animation: moveLogo 5s  ease-out infinite;
+   
+}
+
+.logo-name {
+    font-family: 'LogoFont';
+    -webkit-text-stroke: 2px #8331ee;
+    color: #fff;
+    font-size: 6rem;
+}
+
+.explane {
+    font-family: 'myFirstFont';
+    color: #fff;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0 1em 0 1em;
+    margin-bottom: 3rem;
+}
+
+.home-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5vw;
+}
+
+@media only screen and (max-width: 930px) {
+    .home-btns {
+        flex-direction: column;
+    }
+    .logo{
+        flex-direction: column;
+    }
+    .logo img {
+        margin-left: 1.5rem;
+        height: 5rem;
+        width: 5rem;
+    }
+}

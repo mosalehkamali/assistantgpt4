@@ -1,0 +1,53 @@
+.HomeNav{
+    height: 12vh;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    background: linear-gradient(225deg,rgba(111, 1, 255,1) 0%,  rgb(164, 105, 241) 79%, rgba(117, 169, 156,1) 100%);
+}
+
+.NavContent{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.NavbarBtns{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 50%;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+.Navlogo-name {
+    font-family: 'LogoFont';
+    -webkit-text-stroke: 2px #8331ee;
+    color: #fff;
+    font-size: 7rem;
+}
+
+.profileBtn{
+    text-decoration: none;
+    display: flex !important ;
+    justify-content: center! important;
+    align-items:center;
+    border-radius: 10px 10px 0 0 ;
+    font-family: 'kalamehRegular';
+    font-size: 2rem;
+    width: 30%;
+    height: 3rem;
+    color:  rgb(164, 105, 241);
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    cursor: pointer;
+    border: 4px #fff solid;
+}
+
+.profileBtn>svg{
+    height: 2rem;
+}

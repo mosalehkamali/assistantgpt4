@@ -1,0 +1,41 @@
+.ProductCart{
+    position: relative;
+    height: 30vh;
+    width: 70%;
+    border-radius: 1rem;
+    padding: 2rem;
+    transform: rotateX(50deg)  rotateZ(20deg);
+    transition: all 0.3s;
+}
+
+.ProductCart:hover{
+    transform: rotateX(0deg)  rotateZ(0deg);
+    z-index: 900;
+}
+
+.ProductCartLink{
+    direction: rtl;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.CartTextContent{
+    color: #fff;
+    font-family: 'kalamehRegular';
+}
+
+.CartTextContent > h2{
+    font-size: 3rem;
+    font-weight: 600;
+} 
+
+.CartTextContent> p{
+    font-size: 1.5rem;
+}
+
+.CartPicContent >img{
+    height: 30vh;
+}

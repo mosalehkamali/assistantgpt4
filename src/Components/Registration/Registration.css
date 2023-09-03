@@ -1,0 +1,21 @@
+.Registration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#A469F1 1%, #75A99C 87%);
+}
+
+.toggle{
+    background-color: #fff;
+    color:#0075B6;
+    padding: 3px;
+    margin-top: 3px;
+    border-radius: 5px;
+    font-family: 'kalamehRegular';
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}

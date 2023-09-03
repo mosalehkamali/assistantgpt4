@@ -1,0 +1,46 @@
+.PageLink{
+    text-decoration: none;
+    font-family: 'myFirstFont';
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    height: 6vw;
+    background-color: #A469F1;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.PageLink:hover{
+    transform: translateY(-5px);
+}
+
+.btn-img{
+    border-radius: 10px;
+    background-color: #75A99C;
+    padding: 0.2rem;
+}
+
+.btn-text{
+
+    padding-left: 0.2rem;
+
+}
+
+.btn-title{
+    margin-top: 0.2rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-explane{
+    margin-top: 0.2rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: small;
+}
+
+@media only screen and (max-width: 930px) {
+    .PageLink{
+        width: 18rem;
+        height: 5rem;
+    }
+}
